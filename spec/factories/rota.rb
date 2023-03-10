@@ -5,6 +5,6 @@ FactoryBot.define do
     sequence(:developer) { |n| build(:user, full_name: "Developer #{n}", username: "developer#{n}@example.com") }
     sequence(:ops) { |n| build(:user, full_name: "Ops #{n}", username: "ops#{n}@example.com") }
 
-    initialize_with { new(attributes) }
+    initialize_with { new(**attributes) }
   end
 end
