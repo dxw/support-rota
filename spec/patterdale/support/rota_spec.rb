@@ -31,9 +31,9 @@ describe Patterdale::Support::Rota do
 
     it "returns TBD if there is no developer decided for that rotation" do
       rota = described_class.new(start_date: start_date,
-                                 end_date: end_date,
-                                 developer: nil,
-                                 ops: ops)
+        end_date: end_date,
+        developer: nil,
+        ops: ops)
       expect(rota.developer_name).to eq("Developer TBD")
     end
   end
@@ -45,9 +45,9 @@ describe Patterdale::Support::Rota do
 
     it "returns TBD if there is no ops person decided for that rotation" do
       rota = described_class.new(start_date: start_date,
-                                 end_date: end_date,
-                                 developer: developer,
-                                 ops: nil)
+        end_date: end_date,
+        developer: developer,
+        ops: nil)
       expect(rota.ops_name).to eq("Ops TBD")
     end
   end

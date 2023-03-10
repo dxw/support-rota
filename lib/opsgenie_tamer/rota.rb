@@ -8,10 +8,10 @@ module OpsgenieTamer
       @person = user_detail(person)
     end
 
-    def ==(other_rota)
-      date == other_rota.date &&
-        role == other_rota.role &&
-        person == other_rota.person
+    def ==(other)
+      date == other.date &&
+        role == other.role &&
+        person == other.person
     end
 
     def to_h
