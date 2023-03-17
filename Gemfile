@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby "2.7.7"
+ruby "3.2.1"
 
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap", ">= 4.3.1"
@@ -23,6 +23,7 @@ gem "turbolinks", "~> 5"
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "uglifier", ">= 1.3.0"
 gem "redis-rails"
+gem "redis", "~> 4"
 
 group :development do
   gem "listen", ">= 3.0.5", "< 3.3"

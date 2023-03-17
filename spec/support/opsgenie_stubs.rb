@@ -14,7 +14,7 @@ module OpsgenieStubs
   end
 
   def stub_support_rotations(date: Date.today, id: Patterdale::Support::Rotations::OPSGENIE_SCHEDULE_ID, fixture_name: "support_rotations")
-    url = %r{https://api.opsgenie.com/v2/schedules/#{id}/timeline\?date=[0-9:%2BT\-]+&interval=\d+&intervalUnit=months}
+    url = %r{https://api.opsgenie.com/v2/schedules/#{id}/timeline\?date=[0-9:%2BT-]+&interval=\d+&intervalUnit=months}
     body = JSON.parse(File.read(File.join("spec", "fixtures", "#{fixture_name}.json"))).to_json
     stub_request(:get, url)
       .to_return(
