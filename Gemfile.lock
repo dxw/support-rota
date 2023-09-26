@@ -267,7 +267,7 @@ GEM
     redis-store (1.9.2)
       redis (>= 4, < 6)
     regexp_parser (2.8.0)
-    rexml (3.2.5)
+    rexml (3.2.6)
     rollbar (3.4.0)
     rouge (4.1.0)
     rspec-core (3.12.2)
@@ -316,7 +316,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (4.8.1)
+    selenium-webdriver (4.13.1)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -368,7 +368,7 @@ GEM
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
-    websocket (1.2.9)
+    websocket (1.2.10)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
