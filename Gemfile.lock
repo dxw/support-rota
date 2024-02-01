@@ -163,7 +163,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    icalendar (2.8.0)
+    icalendar (2.10.1)
       ice_cube (~> 0.16)
     ice_cube (0.16.4)
     io-console (0.7.2)
@@ -457,7 +457,7 @@ DEPENDENCIES
   webmock
 
 RUBY VERSION
-   ruby 3.2.1p31
+   ruby 3.3.0p0
 
 BUNDLED WITH
    2.1.4
