@@ -17,7 +17,7 @@ gem "mini_racer"
 gem "opsgenie-schedule"
 gem "puma", "~> 5.0"
 gem "rollbar"
-gem "rails", "~> 7.0.6"
+gem "rails", "~> 7.1.0"
 gem "sass-rails", "~> 6.0"
 gem "turbolinks", "~> 5"
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
