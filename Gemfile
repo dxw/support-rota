@@ -25,7 +25,7 @@ gem "redis-rails"
 gem "redis", "~> 4"
 
 group :development do
-  gem "listen", ">= 3.0.5", "< 3.3"
+  gem "listen", ">= 3.0.5", "< 3.8.1"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.3.0"
