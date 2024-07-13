@@ -1,4 +1,4 @@
-FROM ruby:3.3.3 as release
+FROM ruby:3.3.4 as release
 MAINTAINER dxw <rails@dxw.com>
 RUN apt-get update && apt-get install -qq -y \
   build-essential \
